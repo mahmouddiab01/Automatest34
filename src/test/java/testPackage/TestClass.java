@@ -7,7 +7,10 @@ import org.testng.annotations.Test;
 public class TestClass {
     @Test
     public void test(){
-        WebDriver driver = new ChromeDriver();
+
+        ChromeDriver driver = new ChromeDriver();
+        driver.navigate().to("http://wwww.google.com");
+
     }
-    //test
+    //testNG>> Test suite > test > test class > test method
 }
